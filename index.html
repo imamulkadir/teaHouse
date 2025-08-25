@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tea House</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/1a19299b09.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style type="text/tailwindcss">
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="font-manrope">
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
+      <!-- Header -->
+      <header class="lg:flex pt-10 mb-20">
+        <!-- Text Content -->
+        <div>
+          <h1 class="text-5xl md:text-7xl font-bold">
+            It's good <br />
+            tea time at the <br />
+            Tea House
+          </h1>
+          <br />
+          <p class="text-gray-500 w-3/4">
+            Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+            Your Taste Buds
+          </p>
+          <br />
+          <button
+            class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-lg text-white font-bold cursor-pointer"
+          >
+            Explore More
+            <i class="fa-solid fa-arrow-right text-xl -rotate-45"></i>
+          </button>
+        </div>
+        <!-- Image -->
+        <div class="relative">
+          <!-- image -->
+          <div><img class="w-full" src="./images/banner.png" alt="" /></div>
+          <!-- card -->
+          <div
+            class="absolute flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg gap-4 top-28 md:top-80 md:left-32 lg:left-28"
+          >
+            <!-- icon -->
+            <div><i class="fa-solid fa-star text-3xl text-amber-500"></i></div>
+            <!-- text -->
+            <div>
+              <h2 class="lg:text-2xl font-bold">5.00</h2>
+              <p class="text-gray-500">Trust Pilot Ratings</p>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Products -->
+      <section class="py-8 lg:py-24 mb-8">
+        <div class="text-center mb-8">
+          <h1 class="text-3xl md:text-4xl font-bold mb-4">
+            Our Featured Products
+          </h1>
+          <p class="max-w-xl text-gray-600 mx-auto">
+            Explore our Featured Teas: refreshing Green Serenity, spiced Golden
+            Chai, floral Jasmine Oolong, and classic Earl Grey—crafted to
+            delight every tea lover.
+          </p>
+        </div>
+        <!-- product-card -->
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-center"
+        >
+          <!-- card -->
+          <div class="rounded-lg shadow-md bg-slate-300 overflow-hidden p-2">
+            <img class="mx-auto pt-4" src="./images/tea-1.png" alt="" />
+            <div class="p-4">
+              <h2 class="text-xl font-bold">Milk Tea</h2>
+              <p class="text-gray-600">
+                Creamer could be replaced by fresh milk!
+              </p>
+            </div>
+          </div>
+          <div class="rounded-lg shadow-md bg-slate-300 overflow-hidden p-2">
+            <img class="mx-auto pt-4" src="./images/tea-2.png" alt="" />
+            <div class="p-4">
+              <h2 class="text-xl font-bold">Black Tea</h2>
+              <p class="text-gray-600">
+                Creamer could be replaced by fresh milk!
+              </p>
+            </div>
+          </div>
+          <div class="rounded-lg shadow-md bg-slate-300 overflow-hidden p-2">
+            <img class="mx-auto pt-4" src="./images/tea-3.png" alt="" />
+            <div class="p-4">
+              <h2 class="text-xl font-bold">Lemon Tea</h2>
+              <p class="text-gray-600">
+                Creamer could be replaced by fresh milk!
+              </p>
+            </div>
+          </div>
+          <div class="rounded-lg shadow-md bg-slate-300 overflow-hidden p-2">
+            <img class="mx-auto pt-4" src="./images/tea-4.png" alt="" />
+            <div class="p-4">
+              <h2 class="text-xl font-bold">Green Tea</h2>
+              <p class="text-gray-600">
+                Creamer could be replaced by fresh milk!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
